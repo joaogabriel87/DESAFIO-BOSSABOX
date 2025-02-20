@@ -1,4 +1,4 @@
-package com.projeto.desafio1.Entity;
+package com.projeto.desafio1.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
