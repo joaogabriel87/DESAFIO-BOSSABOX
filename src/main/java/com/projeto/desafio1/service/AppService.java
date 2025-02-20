@@ -2,9 +2,10 @@ package com.projeto.desafio1.service;
 
 import com.projeto.desafio1.Repository.AppRepository;
 import com.projeto.desafio1.model.AppEntity;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class AppService {
 
     private final AppRepository appRepository;
