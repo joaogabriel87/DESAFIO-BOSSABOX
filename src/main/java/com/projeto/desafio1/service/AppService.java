@@ -15,7 +15,7 @@ public class AppService {
     }
 
     public List<AppEntity> GetAllApp(){
-        return appRepository.findAllBy();
+        return appRepository.findAll();
     }
 
     public List<AppEntity> GetAppByTags(List<String> tags){

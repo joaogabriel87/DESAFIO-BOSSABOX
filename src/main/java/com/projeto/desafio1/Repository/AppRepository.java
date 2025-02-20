@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface AppRepository extends JpaRepository<AppEntity, Long> {
 
-    List<AppEntity> findAllBy();
+    List<AppEntity> findAll();
 
     List<AppEntity> findByTagsIn(List<String> tags);
 
