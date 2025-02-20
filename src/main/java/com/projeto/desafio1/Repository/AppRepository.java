@@ -15,9 +15,11 @@ public interface AppRepository extends JpaRepository<AppEntity, Long> {
         return save(app);
     }
 
-     default void  deleteApp(AppEntity app){
-        delete(app);
+     default void  deleteAppById(Long id){
+        deleteById(id);
      }
+
+
 }
 
 
